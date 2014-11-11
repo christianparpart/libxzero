@@ -61,6 +61,12 @@ set(libxzero_SRC
   # http/mock
   http/mock/MockTransport.cpp
 
+  # fastcgi
+  http/fastcgi/ConnectionFactory.cpp
+  http/fastcgi/FastCgiConnection.cpp
+  http/fastcgi/Parser.cpp
+  http/fastcgi/Generator.cpp
+
   # http/1
   http/v1/HttpConnection.cpp
   http/v1/Http1ConnectionFactory.cpp
